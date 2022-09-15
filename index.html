@@ -19,7 +19,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid col-9">
+        <div class="container-fluid col-8">
           <button
             class="navbar-toggler"
             type="button"
@@ -53,55 +53,41 @@
       </nav>
     </header>
     <main>
-      <div
-        class="container-fluid d-flex align-items-center justify-content-center"
-      >
-        <div
-          id="carouselExampleControls"
-          class="carousel slide col-9"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="/./img/closeup-of-tasty-italian-ravioli-4768x3179.png"
-                class="d-block w-100"
-                alt="raviolis"
+      <div class="container-fluid d-flex justify-content-center">
+        <div class="principal col-10 d-flex justify-content-center flex-column">
+          <div class="row videoCabecera col-16">
+            <video
+              id="background-video"
+              autoplay
+              loop
+              muted
+              poster="https://assets.codepen.io/6093409/river.jpg"
+              class="col-10"
+            >
+              <source
+                src="./img/pexels-cottonbro-5530015.mp4"
+                type="video/mp4"
               />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/spanish-seafood-paella-with-mussels-shrimps-etc-in-steel-paella-pan-canary-islands-cousine-in-small-family-restaurant-1920x1282.png"
-                class="d-block w-100"
-                alt="paella de mentira"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/pexels-ash-376464(1).jpg"
-                class="d-block w-100"
-                alt="postre"
-              />
+            </video>
+            <div class="video">
+              <h1>restaurante Bootcamp</h1>
+              <h2>El sabor de aquí</h2>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="tarjetas col-8">
+            <div class="elemento">
+              <figure class="figure">
+                <img
+                  src="./img/closeup-of-tasty-italian-ravioli-4768x3179.png"
+                  class="figure-img img-fluid rounded"
+                  alt="..."
+                />
+                <figcaption class="figure-caption text-end">
+                  A caption for the above image.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
       </div>
     </main>
