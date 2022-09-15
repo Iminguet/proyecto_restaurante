@@ -19,7 +19,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid col-8">
+        <div class="container-fluid col-md-8 col-sm-12">
           <button
             class="navbar-toggler"
             type="button"
@@ -53,43 +53,24 @@
       </nav>
     </header>
     <main>
-      <div class="container-fluid d-flex justify-content-center">
-        <div class="principal col-10 d-flex justify-content-center flex-column">
-          <div class="row videoCabecera col-16">
-            <video
-              id="background-video"
-              autoplay
-              loop
-              muted
-              poster="https://assets.codepen.io/6093409/river.jpg"
-              class="col-10"
-            >
-              <source
-                src="./img/pexels-cottonbro-5530015.mp4"
-                type="video/mp4"
-              />
-            </video>
-            <div class="video">
-              <h1>restaurante Bootcamp</h1>
-              <h2>El sabor de aquí</h2>
-            </div>
-          </div>
-          <div class="tarjetas col-8">
-            <div class="elemento">
-              <figure class="figure">
-                <img
-                  src="./img/closeup-of-tasty-italian-ravioli-4768x3179.png"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-end">
-                  A caption for the above image.
-                </figcaption>
-              </figure>
-            </div>
-          </div>
+      <div class="cortinilla container-fluid col-md-8 col-sm-12">
+        <div class="video row opacity-25">
+          <video
+            id="background-video"
+            autoplay
+            loop
+            muted
+            poster="https://assets.codepen.io/6093409/river.jpg"
+            class="col-md-12 col-sm-12"
+          >
+            <source src="./img/pexels-cottonbro-5530015.mp4" type="video/mp4" />
+          </video>
         </div>
+        <h1>JS restaurante</h1>
+        <h2>Array y objetos a la carta</h2>
       </div>
+
+      <div class="container-fluid presentaciones col-md-8 col-sm-12"></div>
     </main>
 
     <footer></footer>
