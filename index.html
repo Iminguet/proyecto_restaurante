@@ -18,10 +18,10 @@
   </head>
   <body>
     <header>
-      <div class="container-fluid col">
-        <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid col-8 text-light">
+        <nav class="navbar navbar-dark navbar-expand-lg bg col">
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -35,32 +35,78 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link active text-light"
                   aria-current="page"
                   href="./index.html"
-                  >Home</a
+                >
+                  <p class="display-5">Home</p></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./carta.html">Carta</a>
+                <a class="nav-link text-light" href="./carta.html">
+                  <p class="display-5">Carta</p></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contacto.html">Contacto</a>
+                <a class="nav-link text-light" href="/contacto.html"
+                  ><p class="display-5">Contacto</p></a
+                >
               </li>
             </ul>
           </div>
         </nav>
+        <video
+          id="background-video"
+          autoplay
+          loop
+          muted
+          poster="https://assets.codepen.io/6093409/river.jpg"
+        >
+          <source
+            src="https://player.vimeo.com/external/651953979.hd.mp4?s=328241aa97571a941f77ed86444beca3e6e25558&profile_id=175"
+            type="video/mp4"
+          />
+        </video>
+        <div class="textoCabecera">
+          <h1 class="display-1">THIS IS A RIVER.</h1>
+          <h2 class="display-2">How majestic.</h2>
+        </div>
       </div>
     </header>
     <main>
-      <div class="cortinilla container-fluid col-md-12 col-sm-12 m-0">
-        <div class="navVideo row-fluid col-12">
-          <h1>JS restaurante</h1>
-          <h2>Array y objetos a la carta</h2>
+      <div class="container-fluid col d-flex justify-content-center">
+        <div
+          class="row presentacion col-12 col-md-8 d-flex justify-content-center"
+        >
+          <div class="textoIntro text-center col-10 col-md-4">
+            <h1 class="display-1">Somos la leche</h1>
+            <h2>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum at
+              deserunt quae dolore cum ducimus, corporis reprehenderit id
+              aliquam nostrum!
+            </h2>
+            <a href="./carta.html" class="text-info text-decoration-none"
+              ><p class="display-5">Conoce nuestro menú &#10230;</p></a
+            >
+          </div>
+          <div class="muestra row bg-black mt-5">
+            <div class="foto01 col-6">
+              <img
+                src="./img/closeup-of-tasty-italian-ravioli-4768x3179.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="foto02 col-6">
+              <img
+                src="./img/spanish-seafood-paella-with-mussels-shrimps-etc-in-steel-paella-pan-canary-islands-cousine-in-small-family-restaurant-1920x1282.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="container-fluid presentaciones col-md-8 col-sm-12"></div>
     </main>
 
     <footer></footer>

@@ -5,11 +5,52 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 8px;
   font-family: 'Montserrat Alternates', sans-serif;
 }
+header {
+  height: 50vh;
+}
+#background-video {
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
 
+.textoCabecera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70%;
+}
+
+.presentacion {
+  background-color: azure;
+  margin: 1em 0;
+}
 @media (min-width: 768px) {
+  .navbar {
+    display: grid;
+    place-content: center;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  ul .display-5 {
+    margin: 0 1em;
+  }
+  .textoCabecera {
+    margin-top: 10%;
+  }
 }
 
 /* // Large devices (desktops, 992px and up)*/
