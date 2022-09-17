@@ -9,25 +9,7 @@
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-h1,
-h2 {
-  color: red;
-  position: relative;
-  font-weight: bold;
-  text-align: center;
-  bottom: 7em;
-}
-
-.video {
-  position: relative;
-}
-
 @media (min-width: 768px) {
-  h1,
-  h2 {
-    color: blue;
-    bottom: 12em;
-  }
 }
 
 /* // Large devices (desktops, 992px and up)*/
