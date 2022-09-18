@@ -9,6 +9,7 @@
   font-family: 'Montserrat Alternates', sans-serif;
   color: white;
 }
+
 header {
   height: 50vh;
 }
@@ -25,6 +26,10 @@ header {
   z-index: -1;
 }
 
+.card * {
+  color: black;
+}
+
 .textoCabecera {
   display: flex;
   justify-content: center;
@@ -32,16 +37,20 @@ header {
   flex-direction: column;
   margin-top: 70%;
 }
+
 main {
   background-color: white;
   width: 100vw;
 }
+
 .presentacion {
   margin: 0 auto;
 }
+
 .navBarCartaContacto {
   height: auto;
 }
+
 .texto {
   display: flex;
   justify-content: center;
@@ -49,16 +58,19 @@ main {
   position: relative;
   left: 5%;
 }
+
 .foto02 {
   position: relative;
   margin-top: 2em;
 }
+
 .card-img-overlay {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 footer,
 .presentacion,
 .navBarCartaContacto,
@@ -70,16 +82,20 @@ footer,
   padding: 1em;
   width: 100%;
 }
+
 .formulario * {
   color: #adb5bd;
 }
+
 .imagenForm {
   display: flex;
   justify-content: flex-end;
 }
+
 .imagenForm {
   flex-direction: column;
 }
+
 .imagenForm > img {
   width: 100%;
   height: 100%;
@@ -100,35 +116,48 @@ footer,
   min-width: 5em;
   max-width: 5em;
 }
+
 .precio {
   font-weight: bolder;
   font-style: italic;
 }
+
 .imagenCarta {
   width: 100%;
   height: 5vh;
+}
+
+#carne *,
+#pescado *,
+#postres * {
+  color: black;
 }
 
 footer {
   width: 100%;
   height: 100%;
 }
+
 footer div {
   margin: 2em;
 }
+
 @media (min-width: 768px) {
   .navbar {
     display: grid;
     place-content: center;
   }
+
   ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
+
   ul .display-5 {
     margin: 0 1em;
   }
+
   .textoCabecera {
     margin-top: 10%;
   }
@@ -137,9 +166,11 @@ footer div {
     position: relative;
     margin-top: 10em;
   }
+
   .formulario {
     position: absolute;
   }
+
   .imagenForm {
     display: flex;
     flex-direction: row;
@@ -150,9 +181,11 @@ footer div {
     width: 50%;
     height: 50%;
   }
+
   .tarjeta {
     padding: 5em;
   }
+
   .card {
     margin-bottom: 0;
   }
@@ -163,16 +196,47 @@ footer div {
   /
   /
   / */
+
   .parallax {
-    display: block;
-    padding: 5em 0;
+    padding: 3em 0;
     width: 100%;
     height: 20em;
-    background: url(../img/parallax/pexels-kevin-zamorano-8243229.jpg) center
-      center/cover no-repeat fixed;
     color: antiquewhite;
   }
 
+  #carne *,
+  #pasta *,
+  #pescado *,
+  #bebida *,
+  #postres * {
+    color: aliceblue;
+    font-weight: 300;
+  }
+
+  #carne {
+    background: url(../img/parallax/pexels-kevin-zamorano-8243229.jpg) center
+      center/cover no-repeat fixed;
+  }
+
+  #pasta {
+    background: url(../img/parallax/pexels-amanda-hemphill-7440327.jpg) center
+      center/cover no-repeat fixed;
+  }
+
+  #pescado {
+    background: url(../img/parallax/pexels-rajesh-tp-2098143.jpg) center
+      center/cover no-repeat fixed;
+  }
+
+  #bebida {
+    background: url(../img/parallax/pexels-pavel-danilyuk-8775391.jpg) center
+      center/cover no-repeat fixed;
+  }
+
+  #postres {
+    background: url(../img/parallax/pexels-pixabay-65882.jpg) center
+      center/cover no-repeat fixed;
+  }
   /* /
   /
   /
