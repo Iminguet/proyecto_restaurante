@@ -12,7 +12,10 @@
 header {
   height: 50vh;
 }
-#background-video {
+.navBarCartaContacto {
+  height: auto;
+}
+x #background-video {
   width: 100vw;
   height: 50vh;
   object-fit: cover;
@@ -56,7 +59,8 @@ main {
   flex-direction: column;
 }
 footer,
-.presentacion {
+.presentacion,
+.navBarCartaContacto {
   background-color: #adb5bd;
 }
 footer {
@@ -71,6 +75,10 @@ footer div {
   width: 100%;
 }
 
+.imagenForm > img {
+  width: 100%;
+  height: 100%;
+}
 @media (min-width: 768px) {
   .navbar {
     display: grid;
