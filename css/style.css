@@ -196,7 +196,10 @@ footer div {
     height: 20em;
     color: antiquewhite;
   }
-
+  .card > img:hover {
+    transform: scale(1.5);
+    transition: 1.5s;
+  }
   #carne *,
   #pasta *,
   #pescado *,
