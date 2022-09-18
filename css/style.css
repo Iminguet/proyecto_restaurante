@@ -61,7 +61,8 @@ main {
 }
 footer,
 .presentacion,
-.navBarCartaContacto {
+.navBarCartaContacto,
+.selMenu {
   background-color: #adb5bd;
 }
 footer {
@@ -88,6 +89,17 @@ footer div {
 .imagenForm > img {
   width: 100%;
   height: 100%;
+}
+
+.cartaMain {
+  display: grid;
+  place-items: center;
+  margin: 2em auto;
+}
+
+.card {
+  border: none;
+  margin-bottom: 2em;
 }
 
 @media (min-width: 768px) {
@@ -123,6 +135,12 @@ footer div {
   .imagenForm > img {
     width: 50%;
     height: 50%;
+  }
+  .tarjeta {
+    padding: 5em;
+  }
+  .card {
+    margin-bottom: 0;
   }
 }
 
