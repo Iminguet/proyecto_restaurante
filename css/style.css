@@ -190,13 +190,6 @@ footer div {
     margin-bottom: 0;
   }
 
-  /* /
-  /
-  /
-  /
-  /
-  / */
-
   .parallax {
     padding: 3em 0;
     width: 100%;
@@ -210,7 +203,7 @@ footer div {
   #bebida *,
   #postres * {
     color: aliceblue;
-    font-weight: 300;
+    font-weight: 900;
   }
 
   #carne {
@@ -237,22 +230,4 @@ footer div {
     background: url(../img/parallax/pexels-pixabay-65882.jpg) center
       center/cover no-repeat fixed;
   }
-  /* /
-  /
-  /
-  /
-  /
-  / */
-}
-
-/* // Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
 }
