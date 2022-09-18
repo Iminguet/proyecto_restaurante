@@ -12,10 +12,8 @@
 header {
   height: 50vh;
 }
-.navBarCartaContacto {
-  height: auto;
-}
-x #background-video {
+
+#background-video {
   width: 100vw;
   height: 50vh;
   object-fit: cover;
@@ -40,6 +38,9 @@ main {
 }
 .presentacion {
   margin: 0 auto;
+}
+.navBarCartaContacto {
+  height: auto;
 }
 .texto {
   display: flex;
@@ -74,11 +75,21 @@ footer div {
   padding: 1em;
   width: 100%;
 }
-
+.formulario * {
+  color: #adb5bd;
+}
+.imagenForm {
+  display: flex;
+  justify-content: flex-end;
+}
+.imagenForm {
+  flex-direction: column;
+}
 .imagenForm > img {
   width: 100%;
   height: 100%;
 }
+
 @media (min-width: 768px) {
   .navbar {
     display: grid;
@@ -99,6 +110,19 @@ footer div {
   .foto02 {
     position: relative;
     margin-top: 10em;
+  }
+  .formulario {
+    position: absolute;
+  }
+  .imagenForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .imagenForm > img {
+    width: 50%;
+    height: 50%;
   }
 }
 

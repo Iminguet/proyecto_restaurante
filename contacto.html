@@ -57,65 +57,80 @@
         </nav>
       </div>
     </header>
-    <main class="my-5">
+    <main class="my-5 mainCartaContacto">
       <!-- Wrapper container -->
       <div
-        class="container-fluid col-8 d-flex justify-content-center align-items-center bg-danger shadow p-3 mb-5 bg-body rounded"
+        class="container-fluid col-11 col-md-8 d-flex justify-content-center align-items-center bg-danger shadow p-3 mb-5 bg-body rounded flex-sm-column flex-md-row"
       >
-        <div class="row formulario col-9">
-          <div class="text-center">
-            <h3 class="text-primary">How Can We Help You?</h3>
+        <div class="row formulario col-12 col-md-6">
+          <div class="text-sm-center text-md-start">
+            <p class="display-4 my-5">¿Como podemos ayudarte?</p>
           </div>
           <div class="d-flex align-items-center justify-content-center">
-            <div class="bg-white col-9">
+            <div class="bg-transparent col-12 col-md-9">
               <div class="rounded shadow-md col">
                 <div>
-                  <label for="name" class="form-label">Your Name</label>
+                  <label for="name" class="form-label display-5">Nombre</label>
                   <input
                     type="text"
                     name="name"
                     class="form-control"
-                    placeholder="Your Name"
+                    placeholder=""
                     required
                   />
                 </div>
                 <div class="mt-3">
-                  <label for="email" class="form-label">Your Email</label>
+                  <label for="email" class="form-label display-5">E-mail</label>
                   <input
                     type="text"
                     name="email"
                     class="form-control"
-                    placeholder="Your Email"
+                    placeholder=""
                     required
                   />
                 </div>
                 <div class="mt-3">
-                  <label for="subject" class="form-label">Subject</label>
+                  <label for="subject" class="form-label display-5"
+                    >Asunto</label
+                  >
                   <input
                     type="text"
                     name="subject"
                     class="form-control"
-                    placeholder="Subject"
+                    placeholder=""
                     required
                   />
                 </div>
                 <div class="mt-3 mb-3">
-                  <label for="message" class="form-label">Message</label>
+                  <label for="message" class="form-label display-5"
+                    >Mensage</label
+                  >
                   <textarea
                     name="message"
                     cols="20"
                     rows="6"
                     class="form-control"
-                    placeholder="message"
+                    placeholder=""
                   ></textarea>
                 </div>
-                <button class="btn btn-primary">Submit Form</button>
+                <button class="btn btn-primary p-2">
+                  <p class="h1 text-light">Enviar consulta</p>
+                </button>
               </div>
             </div>
           </div>
         </div>
-        <div class="imagenForm col-3">
-          <img src="./img/pexels-kyle-roxas-2122294.jpg" alt="" />
+        <div class="imagenForm col-12 col-md-12 d-flex">
+          <img
+            src="./img/pexels-kyle-roxas-2122294.jpg"
+            alt=""
+            class="d-sm-none d-md-flex"
+          />
+          <img
+            src="./img/spanish-seafood-paella-with-mussels-shrimps-etc-in-steel-paella-pan-canary-islands-cousine-in-small-family-restaurant-1920x1282.png"
+            alt=""
+            class="img-fluid d-md-none col-6 my-5"
+          />
         </div>
       </div>
     </main>
