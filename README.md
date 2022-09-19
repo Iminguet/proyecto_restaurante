@@ -7,17 +7,13 @@ bottcamp de Geekshub realizado en Urbalab, Gandía.
 
 <https://iminguet.github.io/proyecto_restaurante/>
 
-![](./img/readme01.PNG){width="6.6930555555555555in"
-height="3.09375in"}
+![](./img/readme01.PNG)
 
-![](./img/readme02.PNG){width="6.6930555555555555in"
-height="3.202777777777778in"}
+![](./img/readme02.PNG)
 
-![](./img/readme03.PNG){width="6.6930555555555555in"
-height="3.1125in"}
+![](./img/readme03.PNG)
 
-![](./img/readme04.PNG){width="6.6930555555555555in"
-height="3.7375in"}
+![](./img/readme04.PNG)
 
 Todas las imágenes han sido extraidas debidamente de
 <https://www.pexels.com/es-es/>
