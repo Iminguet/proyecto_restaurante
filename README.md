@@ -1,4 +1,4 @@
-**[Proyecto Bootstrap carta de restaurante]{.ul}**
+**Proyecto Bootstrap carta de restaurante**
 
 Web de restaurante que contiene 3 páginas, home, carta y contacto.
 
