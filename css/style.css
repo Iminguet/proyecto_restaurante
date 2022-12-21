@@ -35,7 +35,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 70%;
+  margin-top: 40%;
 }
 
 main {
@@ -83,6 +83,9 @@ footer,
   width: 100%;
 }
 
+.formulario {
+  margin-left: 100%;
+}
 .formulario * {
   color: #adb5bd;
 }
@@ -111,7 +114,11 @@ footer,
   border: none;
   margin-bottom: 2em;
 }
-
+.cartaMain .alergenos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .cartaMain .alergenos li > img {
   min-width: 5em;
   max-width: 5em;
@@ -141,17 +148,26 @@ footer {
 footer div {
   margin: 2em;
 }
+@media (min-width: 568px) {
+  #navbarNav ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 5em;
+  }
+  .textoCabecera {
+    margin-top: 10%;
+  }
+
+  .formulario {
+    margin-left: 0%;
+  }
+}
 
 @media (min-width: 768px) {
   .navbar {
     display: grid;
     place-content: center;
-  }
-
-  ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
   }
 
   ul .display-5 {
@@ -197,7 +213,7 @@ footer div {
     color: antiquewhite;
   }
   .card > img:hover {
-    transform: scale(1.5);
+    transform: scale(1);
     transition: 1.5s;
   }
   #carne *,
